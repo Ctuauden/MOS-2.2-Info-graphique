@@ -44,7 +44,7 @@ On a codé une équation du rendu en utilisant une BRDF afin d’obtenir un rend
 
 # VI – Anti-Aliasing
 L’anti-aliasing va nous permettre d’effacer le crénelage du au fait que les pixels soient carrés.
-![AntiAliasing](/comparaison AA.png)
+![AntiAliasing](/comparaisonAA.png)
  
  
 
