@@ -20,30 +20,36 @@ Elle contient également une méthode Specularite qui renvoie un vecteur dont le
 Enfin, la classe est dotée d’une méthode BRDF qui calcul l’équation du rendu pour un point donné. Elle incorpore également la gestion de l’anti-aliasing.
 # II – Première scène simple
 Voici une première image qui ne contient qu’une sphère avec un éclairage qui dépend de l’exposition et la position des points par rapport à la source de lumière.
+![Scene Simple](/scene_simple.bmp)
  
  
 
 # III – Ajout d’ombres 
 On passe maintenant à une scène dans laquelle on a placé plusieurs sphères pour simuler des murs sur lesquels voir les ombres qui se projettent.
+![Ombres](/ombres.bmp)
  
  
 
 # IV – Sphère miroir
 On insère maintenant une sphère spéculaire qui va réfléchir ce qui l’entoure. On a ajouté un cadreur (simulé par une sphère noire derrière la caméra) pour observer que les réflexions marchent bien dans toutes les directions.
+![Miroir](/miroir.bmp)
  
  
 
 # V – Équation du rendu 
 On a codé une équation du rendu en utilisant une BRDF afin d’obtenir un rendu plus réaliste en prenant en compte l’éclairage indirect.
+![Rendu](/Equation_du_rendu.bmp)
  
  
 
 # VI – Anti-Aliasing
 L’anti-aliasing va nous permettre d’effacer le crénelage du au fait que les pixels soient carrés.
+![AntiAliasing](/comparaison AA.png)
  
  
 
 # VII – Textures procédurales
 Les textures procédurales consistent à utiliser une fonction pour déterminer l’albédo d’une sphère (et même d’un point) plutôt que d’utiliser des surfaces prédéfinis.
+![Textures_Procedurales](/textures_procédurales.bmp)
  
 
